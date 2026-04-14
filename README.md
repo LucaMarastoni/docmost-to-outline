@@ -50,7 +50,7 @@ pip install pillow
 Basic usage:
 
 ```
-python3 docmost_to_outline_prepare_v12.py "input.zip"
+python3 main.py "input.zip"
 ```
 
 Optional arguments:
@@ -67,7 +67,7 @@ Optional arguments:
 Example:
 
 ```
-python3 docmost_to_outline_prepare_v12.py "export.zip" \
+python3 main.py "export.zip" \
   --collection-name "My Import" \
   --output-zip "outline-ready.zip"
 ```
@@ -88,4 +88,4 @@ python3 docmost_to_outline_prepare_v12.py "export.zip" \
 
 ## License
 
-MIT (or specify your preferred license)
+MIT
